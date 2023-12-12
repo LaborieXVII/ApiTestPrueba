@@ -1,0 +1,54 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Luis",
+        "correo": "profesor1@example.com",
+        "password": "clave123",
+        "rol": "profesor",
+        "secciones": [
+          101,
+          102
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Pepe",
+        "correo": "alumno1@example.com",
+        "password": "clave456",
+        "rol": "estudiante",
+        "secciones": [
+          101,
+          103
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Paul",
+        "correo": "alumno2@example.com",
+        "password": "clave789",
+        "rol": "estudiante",
+        "secciones": [
+           102,
+           103
+         ]
+      }
+    ],
+    "secciones": [
+      {
+        "id_seccion": 101,
+        "nombre": "Desarrollo de aplicaciones moviles",
+        "imagen": "src/assets/basededatos.jpg"
+      },
+      {
+        "id_seccion": 102,
+        "nombre": "Etica",
+        "imagen": "assets/basededatos.jpg"
+      },
+      {
+        "id_seccion": 103,
+        "nombre": "Programación de base de datos",
+        "imagen": "assets/basededatos.jpg"
+      }
+    ]
+  }
